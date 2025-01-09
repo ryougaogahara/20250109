@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-size: medium;
+}
+.section {
+    text-align: center;
+    font-size: 2em;
+}
+
+.fp-tableCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sazanka {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/sazanka.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, .0);
+}
+
+#sazanka h3, #sazanka p {
+    position: relative;
+    z-index: 1;  /* テキストを背景より前面に表示 */
+    color: white; /* 白い文字にする */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影をつけて視認性を向上 */
+}
+
+
+#kosumosu {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/kosumosu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, .0);
+}
+
+#kosumosu h3, #kosumosu p {
+    position: relative;
+    z-index: 1;  /* テキストを背景より前面に表示 */
+    color: white; /* 白い文字にする */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影をつけて視認性を向上 */
+}
+
+#suisen {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/suisen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, .0);
+}
+
+#suisen h3, #suisen p {
+    position: relative;
+    z-index: 1;  /* テキストを背景より前面に表示 */
+    color: white; /* 白い文字にする */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影をつけて視認性を向上 */
+}
